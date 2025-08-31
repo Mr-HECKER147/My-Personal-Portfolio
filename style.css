@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #002fff 0%, #00ffff 100%);
+  min-height: 100vh;
+}
+
+#main {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 40px 24px;
+  transition: box-shadow 0.3s;
+}
+
+#main:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.22);
+}
+
+#name {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 2.5rem;
+  color: #008080;
+  margin-bottom: 16px;
+}
+
+#description {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+#social a {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #00eeff;
+    border-radius: 5px;
+    width: 120px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.social p {
+    text-shadow: #002fff;
+    font-family: "Roboto", Arial, sans-serif;
+}

@@ -1,60 +1,104 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap");
-
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", Arial, sans-serif;
-  text-align: center;
-  background: linear-gradient(135deg, #002fff 0%, #00ffff 100%);
-  min-height: 100vh;
-}
-
-#main {
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-  width: 90%;
-  max-width: 500px;
-  margin: 60px auto;
-  padding: 40px 24px;
-  transition: box-shadow 0.3s;
-}
-
-#main:hover {
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.22);
-}
-
-#name {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 2.5rem;
-  color: #008080;
-  margin-bottom: 16px;
-}
-
-#description {
-  font-size: 1.2rem;
-  color: #333;
-  margin-bottom: 0;
-}
-#social{
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-}
-
-#social a {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    background-color: #00eeff;
-    border-radius: 5px;
-    width: 120px;
-    height: 25px;
-    margin-top: 13px;
-    margin-left: 8px;
-    color: black;
-    text-decoration: none;
-}
-
-.social p {
-    text-shadow: #002fff;
-    font-family: "Roboto", Arial, sans-serif;
-}
+      margin: 0;
+      padding: 0;
+      font-family: "Roboto", Arial, sans-serif;
+      background: linear-gradient(135deg, #002fff 0%, #00ffff 100%);
+      color: #333;
+      min-height: 100vh;
+      text-align: center;
+    }
+    #main {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+      width: 90%;
+      max-width: 700px;
+      margin: 60px auto 80px;
+      padding: 40px 24px;
+      transition: box-shadow 0.3s;
+    }
+    #main:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.22);
+    }
+    #name {
+      font-family: "Montserrat", Arial, sans-serif;
+      font-size: 2.8rem;
+      color: #008080;
+      margin-bottom: 8px;
+    }
+    #title {
+      font-size: 1.5rem;
+      margin-bottom: 24px;
+      color: #006666;
+    }
+    #description {
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+      line-height: 1.5;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    section {
+      margin-bottom: 48px;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2 {
+      font-family: "Montserrat", Arial, sans-serif;
+      font-weight: 700;
+      font-size: 1.8rem;
+      margin-bottom: 16px;
+      color: #004d4d;
+      border-bottom: 2px solid #00cccc;
+      padding-bottom: 6px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      color: #444;
+    }
+    a.social-link {
+      display: inline-block;
+      margin: 0 12px;
+      text-decoration: none;
+      color: #008080;
+      font-weight: 700;
+      transition: color 0.3s;
+    }
+    a.social-link:hover {
+      color: #004d4d;
+    }
+    .project {
+      margin-bottom: 20px;
+    }
+    .project-title {
+      font-weight: 700;
+      color: #006666;
+      margin-bottom: 4px;
+    }
+    .code-link {
+      font-size: 0.9rem;
+      color: #002b2b;
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #004d4d;
+    }
+    @media (max-width: 600px) {
+      #main {
+        padding: 30px 16px;
+        max-width: 90%;
+      }
+      #name {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+  

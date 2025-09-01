@@ -124,4 +124,8 @@ body {
         font-size: 1.4rem;
       }
     }
+#contact p{
+  display: inline-block;
   
+  margin-left: 10px; 
+}

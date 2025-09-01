@@ -7,6 +7,8 @@
   <title>Uddhav Joshi | Personal Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+  <!-- Add Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
   <div id="main">
@@ -16,41 +18,58 @@
       Passionate about programming, AI, and machine learning. Exploring innovative technologies through projects and continuous learning. Follow my journey in tech development and open source contributions.
     </p>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Languages: Python, C++, C</li>
-        <li>Frameworks & Tools: Flask, and currently learning more...</li>
-        <li>Technologies: Web Development and currently learning more...</li>
-      </ul>
-    </section>
+    <div class="expand-card" onclick="this.classList.toggle('expanded')">
+  <div class="expand-title">
+    Skills
+    <span class="expand-icon">&#9660;</span>
+  </div>
+  <div class="expand-content">
+    <ul>
+      <li>Languages: Python, C++, C</li>
+      <li>Frameworks & Tools: Flask, and currently learning more...</li>
+      <li>Technologies: Web Development and currently learning more...</li>
+    </ul>
+  </div>
+</div>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <div class="project-title">Grocery store management system</div>
-        <p>A fullstack grocery store management system using Python,Flask,MySQL.</p>
-        <a href="https://github.com/Mr-HECKER147/Grocery-Store-Management-System" target="_blank" class="code-link">View Code on GitHub</a>
-      </div>
-      <div class="project">
+<div class="expand-card" onclick="this.classList.toggle('expanded')">
+  <div class="expand-title">
+    Projects
+    <span class="expand-icon">&#9660;</span>
+  </div>
+  <div class="expand-content">
+    <!-- Place your project cards here -->
+    <div class="project">
+      <div class="project-title">Grocery store management system</div>
+      <p>A fullstack grocery store management system using Python, Flask, MySQL.</p>
+      <a href="https://github.com/Mr-HECKER147/Grocery-Store-Management-System" target="_blank" class="code-link">View Code on GitHub</a>
+    </div>
+    <div class="project">
         <div class="project-title">Binary-Search-Of-User-Defined-Array</div>
-        <p>Implemented binary search algorithm for user-defined arrays in Python.</p>
+        <p>Implemented binary search algorithm for user-defined arrays in C.</p>
         <a href="https://github.com/Mr-HECKER147/Binary-Search-Of-User-Defined-Array" target="_blank" class="code-link">View Code on GitHub</a>
       </div>
-    </section>
+    <div class="project">
+        <div class="project-title">Bubble Sort of User defined Unsorted Array</div>
+        <p>Implemented bubble sort algorithm for user-defined unsorted arrays in C.</p>
+        <a href="https://github.com/Mr-HECKER147/Bubble-Sort-of-User-Define-Unsorted-Array" target="_blank" class="code-link">View Code on GitHub</a>
+      </div>
+    <!-- Add other projects similarly -->
+  </div>
+</div>
 
-    <section id="social">
-      <h2>Connect with Me</h2>
-      <a href="https://github.com/Mr-HECKER147"" target="_blank" class="social-link">GitHub</a>
-      <a href="https://www.instagram.com/__the_joshi__" target="_blank" class="social-link">Instagram</a>
-      
-    </section>
+    <a href="https://github.com/Mr-HECKER147" target="_blank" class="social-link">
+  <i class="fab fa-github"></i> GitHub
+</a>
+<a href="https://www.instagram.com/__the_joshi__" target="_blank" class="social-link">
+  <i class="fab fa-instagram"></i> Instagram
+</a>
 
-    <<section id="contact">
+    <section id="contact">
       <h2>Contact Me</h2>
-      
-      <p>Email: uddhavjoshi93@gmail.com</p> 
-      <p> Phone: +91 7387306658</p>
+
+      <p>~Email: uddhavjoshi93@gmail.com</p> 
+      <p>~Phone: +91 7387306658</p>
       
     </section>
 

@@ -6,9 +6,9 @@ body {
   min-height: 100vh;
   text-align: center;
   /* Animated gradient background */
-  background: linear-gradient(135deg, #0075fa, #b700ff, #00aeff, #00ff15);
+  background: linear-gradient(135deg, #0075fa, #b700ff, #00ffbf, #00ff15);
   background-size: 400% 400%;
-  animation: gradientBG 8s ease-in-out infinite;
+  animation: gradientBG 5s ease-in-out infinite;
   color: #333;
 }
 
@@ -124,8 +124,78 @@ body {
         font-size: 1.4rem;
       }
     }
+
+/* ...existing code... */
+.expand-card {
+  background: #f8fafc;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  padding: 18px 20px;
+  cursor: pointer;
+  transition: box-shadow 0.3s, max-height 0.4s cubic-bezier(.4,0,.2,1), padding 0.3s;
+  max-height: 60px;
+  overflow: hidden;
+  position: relative;
+}
+
+.expand-card.expanded {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  max-height: 400px;
+  padding: 24px 20px;
+  background: #e0f7fa;
+}
+
+.expand-card .expand-title {
+  font-weight: 700;
+  color: #006666;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expand-card .expand-icon {
+  font-size: 1.3rem;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.expand-card.expanded .expand-icon {
+  transform: rotate(180deg);
+}
+
+.expand-card .expand-content {
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin-top: 12px;
+  pointer-events: none;
+}
+
+.expand-card.expanded .expand-content {
+  opacity: 1;
+  pointer-events: auto;
+}
+/* ...existing code... */
+
+/* ...existing code... */
+.project {
+  margin-bottom: 20px;
+  background: #f8fafc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 18px 20px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.project:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+  transform: translateY(-4px) scale(1.02);
+}
+/* ...existing code... */
+
 #contact p{
   display: inline-block;
-  
-  margin-left: 10px; 
+  margin-left: 35px; 
 }

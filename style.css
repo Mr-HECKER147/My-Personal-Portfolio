@@ -141,7 +141,7 @@ body {
 
 .expand-card.expanded {
   box-shadow: 0 8px 32px rgba(0,0,0,0.15);
-  max-height: 400px;
+  max-height: max-content;
   padding: 24px 20px;
   background: #e0f7fa;
 }

@@ -1,2 +1,4 @@
 # My-Personal-Portfolio
-My personal (under contruction) portfolio
+My personal portfolio
+
+Still improving, adding skills and projects...

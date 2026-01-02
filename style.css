@@ -8,7 +8,7 @@ body {
   /* Animated gradient background */
   
   background-size: 400% 400%;
-  background-color:cyan;
+  background-color:rgb(0, 121, 121);
   color: #333;
 }
 
@@ -51,16 +51,16 @@ body {
     #name {
       font-family: "Montserrat", Arial, sans-serif;
       font-size: 2.8rem;
-      color: #008080;
+      color: #16d8d8;
       margin-bottom: 8px;
     }
     #title {
       font-size: 1.5rem;
       margin-bottom: 24px;
-      color: #006666;
+      color: #1ad4d4;
     }
     #description{
-      color:#f8fafc;
+      color:#559cb4;
       font-size: 1.1rem;
       margin-bottom: 40px;
       line-height: 1.5;
@@ -205,7 +205,7 @@ body {
 /* ...existing code... */
 
 #contact p{
-  color: white;
+  color: rgb(78, 112, 184);
   display: inline-block;
   margin-left: 35px; 
 }

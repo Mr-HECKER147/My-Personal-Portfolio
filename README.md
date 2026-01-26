@@ -2,6 +2,10 @@
 > My personal (under contruction) portfolio
 
 ![Portfolio screenshot](./assets/Screenshot.png)
+Screenshot
+----------
+The image above is a screenshot of the current portfolio layout.
+
 
 About
 -----
@@ -15,9 +19,6 @@ Repository details
   - CSS: 53.9%
   - HTML: 46.1%
 
-Screenshot
-----------
-The image above is a screenshot of the current portfolio layout.
 
 
 Quick features

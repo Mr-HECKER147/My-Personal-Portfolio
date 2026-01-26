@@ -57,7 +57,7 @@ Deploy
 - GitHub Pages:
   1. Push to `main` (or `gh-pages`) branch.
   2. In the repo Settings → Pages, choose the branch and root folder.
-  3. Visit `https://<username>.github.io/My-Personal-Portfolio/` once published.
+  3. Visit `https://mr-hecker147.github.io/My-Personal-Portfolio/` once published.
 - Other hosts: Netlify, Vercel, Surge, and similar static hosting providers work well.
 
 Customizations

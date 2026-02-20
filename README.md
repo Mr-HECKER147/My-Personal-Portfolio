@@ -15,9 +15,7 @@ Repository details
 ------------------
 - Repository: `Mr-HECKER147/My-Personal-Portfolio`
 - Description: My personal (under contruction) portfolio
-- Language composition:
-  - CSS: 53.9%
-  - HTML: 46.1%
+
 
 
 
@@ -33,8 +31,7 @@ Quick features
 File structure (example)
 ------------------------
 - index.html — main page markup
-- css/
-  - styles.css — primary styles (responsive rules, layout, colors)
+- styles.css — primary styles (responsive rules, layout, colors)
 - assets/
   - portfolio-screenshot.png — screenshot used in README (optional)
   - any images or icons used by the site

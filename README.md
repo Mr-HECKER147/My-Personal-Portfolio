@@ -1,10 +1,6 @@
 # My Personal Portfolio
 > My personal (under contruction) portfolio
 
-![Portfolio screenshot](./assets/Screenshot.png)
-Screenshot
-----------
-The image above is a screenshot of the current portfolio layout.
 
 
 About

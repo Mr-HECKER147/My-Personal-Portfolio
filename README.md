@@ -1,100 +1,90 @@
 # My Personal Portfolio
-> My personal (under contruction) portfolio
 
+Live site: https://mr-hecker147.github.io/My-Personal-Portfolio/
 
+> A personal portfolio for showcasing projects, skills, and contact information.
 
 About
 -----
-A minimal, responsive single-page portfolio built with plain HTML and CSS. This site is a work in progress and is intended to present projects, skills, and contact details in a clean, mobile-friendly layout.
+A minimal, responsive single-page portfolio built with plain HTML, CSS, and JavaScript. It presents projects, skills, education, and a contact form in a clean, mobile-friendly layout.
 
 Repository details
 ------------------
 - Repository: `Mr-HECKER147/My-Personal-Portfolio`
-- Description: My personal (under contruction) portfolio
-
-
-
+- Description: Personal portfolio website for Uddhav Joshi
 
 Quick features
 --------------
-- Modern dark card layout with bright accent color
-- Collapsible sections for Skills and Projects
-- Social links (GitHub / Instagram / LinkedIn) area
-- Contact section with email & phone placeholders
-- Fully static: no JavaScript frameworks required — just HTML + CSS
+- Modern dark card layout with bright accent colors
+- Collapsible sections for Skills, Projects, and About Me
+- Social links for GitHub, Instagram, and LinkedIn
+- Contact section with working static-site email submission support
+- Fully static: no JavaScript frameworks required
 - Ready for GitHub Pages or any static host
 
-File structure (example)
-------------------------
-- index.html — main page markup
-- styles.css — primary styles (responsive rules, layout, colors)
-- assets/
-  - portfolio-screenshot.png — screenshot used in README (optional)
-  - any images or icons used by the site
+File structure
+--------------
+- `index.html` — main page markup
+- `style.css` — styling and responsive layout
+- `script.js` — contact form behavior and fallback email handling
+- `assets/` — images or supporting files
 
 Run locally
 -----------
 1. Clone the repository:
-   ```
+   ```bash
    git clone https://github.com/Mr-HECKER147/My-Personal-Portfolio.git
    cd My-Personal-Portfolio
    ```
-2. Open `index.html` in a browser (double-click), or serve via a simple server:
+2. Open `index.html` directly in a browser, or serve the folder locally:
+   ```bash
+   python -m http.server 8000
    ```
-   python3 -m http.server 8000
-   # open http://localhost:8000
-   ```
+3. Visit `http://localhost:8000/`
 
 Deploy
 ------
 - GitHub Pages:
-  1. Push to `main` (or `gh-pages`) branch.
-  2. In the repo Settings → Pages, choose the branch and root folder.
-  3. Visit `https://mr-hecker147.github.io/My-Personal-Portfolio/` once published.
-- Other hosts: Netlify, Vercel, Surge, and similar static hosting providers work well.
+  1. Push the project to the `main` branch.
+  2. Go to the repository settings → Pages.
+  3. Select the `main` branch and the root folder.
+  4. Visit the live site at `https://mr-hecker147.github.io/My-Personal-Portfolio/`
 
-Customizations
---------------
-- Update the header (name, tagline, about) in `index.html`.
-- Replace dummy social links with real profiles.
-- Add project cards with descriptions, tech stack, and links to demos or repos.
-- Enhance accessibility: add ARIA attributes to collapsible sections and ensure focus styles.
-- Improve performance: minify CSS and optimize images.
+Contact form
+------------
+The contact form is designed for static hosting. It attempts to send the message via FormSubmit and falls back to opening the user's email client with a pre-filled message if the form service is unavailable.
+
+Customization
+-------------
+- Update the name, tagline, and about content in `index.html`.
+- Replace or expand project cards with your work.
+- Update social URLs with your real profiles.
+- Adjust the color palette and spacing in `style.css`.
 
 Accessibility & design notes
 ----------------------------
 - Verify color contrast for text and interactive controls.
-- Provide descriptive `alt` text for images.
-- Ensure collapsible sections are keyboard accessible.
-- Consider adding reduced-motion preferences for animations.
+- Ensure collapsible sections remain keyboard accessible.
+- Add reduced-motion preferences if you expand the animations.
 
 Contributing
 ------------
 Contributions and suggestions are welcome.
 1. Fork the repo.
-2. Create a branch: `git checkout -b feature/your-feature`.
-3. Commit your changes: `git commit -m "Describe your changes"`.
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Describe your changes"`
 4. Push and open a pull request.
-
-Suggested roadmap / TODO
-------------------------
-- [ ] Add real projects and project detail views
-- [ ] Improve collapsible UI behavior and animations
-- [ ] Add a contact form (serverless endpoint or form provider)
-- [ ] Create separate sections or pages for resume, blog, and portfolio details
-- [ ] Add unit/visual tests or a simple Lighthouse check in CI
 
 License
 -------
-No license is included. If you'd like this project to be open-source, consider adding a license (MIT, Apache-2.0, etc.). Tell me which license you prefer and I can add the file.
+No license is included yet. If you want to publish this project under an open-source license, add one such as MIT or Apache 2.0.
 
 Security & privacy
 ------------------
-- Do not commit sensitive personal information (private phone numbers, personal email that you do not want public). Replace any real contact info in `index.html` with placeholders or environment-backed forms if preferred.
+- Avoid committing sensitive contact data you do not want to expose publicly.
+- The contact form should be used with a configured email service or mail fallback only.
 
 Questions or help
 -----------------
-If you want help customizing the layout, adding a Projects page, or preparing the site for GitHub Pages, tell me what you want changed and I will update the README or the source files accordingly.
+If you want help customizing the layout, adding new sections, or improving deployment, let me know.
 
-Generated for: Mr-HECKER147/My-Personal-Portfolio
-```
